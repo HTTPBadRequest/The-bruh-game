@@ -105,7 +105,7 @@ while true do
 			_iterator = pairs(debug),
 			_Error = game:GetService("ScriptContext").Error,
 			_type = type,
-			_typeof = typeof,
+			_typeof = typeof, --bruh MOEMTN!UM
 			__G = _G,
 			_Enum = Enum,
 			_table = table,
@@ -152,6 +152,7 @@ while true do
 			__type = "function"
 		})
 		local Args = {
+			_nigs = {},
 			_xpcall = {
 				game,
 				function()
@@ -700,7 +701,7 @@ while true do
 				__eq = _u
 			}))
 			local B = _a._Instance.new("BindableFunction")
-			B.OnInvoke = _a._error
+			B.OnInvoke = _a._error warn("hi")
 			return _a._pcall(B, "Invoke", Start)
 		end
 	end)(...), (...)
